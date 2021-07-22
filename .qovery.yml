@@ -1,0 +1,11 @@
+---
+application:
+  name: "kingbot"
+  project: "MusicBot"
+  organization: "QoveryCommunity"
+routers:
+- name: "master-kingbot"
+  routes:
+  - application_name: "kingbot"
+    paths:
+    - "/*"
