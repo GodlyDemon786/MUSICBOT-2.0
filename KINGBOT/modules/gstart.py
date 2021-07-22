@@ -1,6 +1,6 @@
 
 import logging
-from KINGBOT.modules.msg import Messages as tr
+from KINGBOT.modules.gstart import Messages as tr
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from KINGBOT.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL,BOT_USERNAME
